@@ -1,0 +1,10 @@
+models:
+  - name: dim_agencias
+    description: Modelo dimensão de agencias.
+    columns:
+      - name: pk_agencia
+        description: Chave primária do agencia.
+        data_tests:
+          - unique
+          - not_null
+          
