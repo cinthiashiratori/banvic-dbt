@@ -1,8 +1,8 @@
 with 
-    colaboradores as (
+    dim_colaboradores as (
         select *
         from {{ ref('int_dimensao_colaboradores') }}
     )
 
 select *
-from colaboradores
+from dim_colaboradores
